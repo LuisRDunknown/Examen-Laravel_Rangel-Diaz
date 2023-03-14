@@ -10,19 +10,19 @@
                     @csrf
                 <div class="card-body">
                 <div>
-                    <label  for="nombre">Nombre: </label>
+                    <label class="col-md-4 col-form-label text-md-end" for="nombre">Nombre: </label>
                     <input type="text" name="nombre" id="nombre" required>
                 </div>
                 <div>
-                    <label  for="marca">Marca: </label>
+                    <label class="col-md-4 col-form-label text-md-end" for="marca">Marca: </label>
                     <input type="text" name="marca" id="marca" required>
                 </div>
                 <div>
-                    <label  for="precio">Precio: </label>
+                    <label class="col-md-4 col-form-label text-md-end" for="precio">Precio: </label>
                     <input type="text" name="precio" id="precio" required>
                 </div>
                 <div>
-                    <label  for="cantidad">Cantidad: </label>
+                    <label class="col-md-4 col-form-label text-md-end" for="cantidad">Cantidad: </label>
                     <input type="text" name="cantidad" id="cantidad" required>
                 </div>
                 <br>
