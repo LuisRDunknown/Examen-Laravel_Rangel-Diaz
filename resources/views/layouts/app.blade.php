@@ -64,6 +64,9 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Cerrar Sesión') }}
                                     </a>
+                                    <a class="dropdown-item" lass="dropdown-item" href="{{url('/')}}">Inicio</a>
+                                    <a class="dropdown-item" href="{{route('images')}}">Imagenes</a>
+                                    <a class="dropdown-item" href="{{route('limyEnc')}}">Procesar</a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
